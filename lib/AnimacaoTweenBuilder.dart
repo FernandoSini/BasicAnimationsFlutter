@@ -11,6 +11,7 @@ class _AnimacaoTweenBuilderState extends State<AnimacaoTweenBuilder> {
   @override
   Widget build(BuildContext context) {
     return Center(
+      /* animação de rotação/rotation animation */
       /*  child: TweenAnimationBuilder(
         /* o tween define o tipo de interpolação/mudança que você irá fazer, voce define o inicio e o fim */
         tween: Tween<double>(begin: 0, end: 6.28),
@@ -25,6 +26,7 @@ class _AnimacaoTweenBuilderState extends State<AnimacaoTweenBuilder> {
         duration: Duration(seconds: 2),
       ), */
 
+/* animação de aumento de largura */
       /*  child: TweenAnimationBuilder(
         /* o tween define o tipo de interpolação/mudança que você irá fazer, voce define o inicio e o fim */
         tween: Tween<double>(begin: 50, end: 180),
